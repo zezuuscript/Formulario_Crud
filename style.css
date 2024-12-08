@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -- PÁGINA DE CADASTRO/LOGIN -- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    min-width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.title {
+    margin-bottom: 18px;
+    text-align: center;
+    color: rgb(58, 199, 175);
+    font-size: 40px
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    color: #313131;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados {
+    margin-bottom: 4px;
+    margin-top: 12px;
+    color: rgb(68, 68, 68);
+}
+
+.input {
+    width: 100%;
+    padding: 8px 7px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline: none;
+    transition: .2s;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+.input:focus {
+    border-color: rgb(58, 199, 175);
+}
+
+.button-submit {
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    background-color: rgb(58, 199, 175);
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.href-submit {
+    padding: 14px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    background-color: rgb(58, 199, 175);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -- PÁGINA DO CRUD -- */
+
+.button-crud {
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    background-color: rgb(58, 199, 175);
+    cursor: pointer;
+    width: 100px;
+}
+
+#filter-button {
+    padding: 32px;
+    min-width: 30%;
+}
+
+.button-filter {
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    background-color: #3ac7af;
+    cursor: pointer;
+    padding: 12px;
+    min-width: 80%;
+}
+
+.table {
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table thead tr {
+    background-color: #3ac7af;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+dialog {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.button-save {
+    background-color: #3ac7af;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-cancel {
+    background-color: #3ac7af;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-button {
+    margin-top: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

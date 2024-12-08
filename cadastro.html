@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Cadastro de Usuário</h1>
+        <form id="form" method="POST" action="processar_cadastro.php">
+            <div class="form-control">
+                <label for="login">Login</label>
+                <input class="input required" type="text" name="login" placeholder="Nome de Usuário" id="login">
+            </div>
+            <div class="form-control">
+                <label for="senha">Senha</label>
+                <input class="input required" type="password" name="senha" placeholder="Senha" id="senha">
+            </div>
+
+            <div class="form-control">
+                <label for="nome">Nome Completo</label>
+                <input class="input required" type="text" name="nome" placeholder="Nome Completo" id="nome">
+            </div>
+
+            <div class="form-control">
+                <label for="Idade">Idade</label>
+                <input class="input required" type="text" name="idade" placeholder="Idade" id="idade">
+            </div>
+
+            <div class="form-control">
+                <label for="cep">CEP</label>
+                <input class="input required" type="text" name="cep" placeholder="CEP (Somente Números)" id="cep"
+                    required onblur>
+            </div>
+
+            <div class="form-control">
+                <label for="rua">Nome da Rua</label>
+                <input class="input required" type="text" name="rua" placeholder="Rua" id="rua" required readonly>
+            </div>
+
+            <div class="form-control">
+                <label for="bairro">Bairro</label>
+                <input class="input required" type="text" name="bairro" placeholder="Bairro" id="bairro" required
+                    readonly>
+            </div>
+
+            <div class="form-control">
+                <label for="cidade">Cidade</label>
+                <input class="input required" type="text" name="cidade" placeholder="Cidade" id="cidade" required
+                    readonly>
+            </div>
+
+            <div class="form-control">
+                <label for="estado">Estado</label>
+                <input class="input required" type="text" name="estado" placeholder="Estado" id="estado" required
+                    readonly>
+            </div>
+
+            <button class="button-submit" type="submit">Confirmar Cadastro</button>
+            <a href="index.html" class="back-button">Voltar Página</a>
+        </form>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
